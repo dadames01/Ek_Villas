@@ -5,6 +5,7 @@ import NavBar from './components/NavBar/NavBar';
 import HostSection from './components/HostSection/HostSection'
 import Gallery from './components/Gallery/Gallery'
 
+
 function App() {
   return (
     <div>
