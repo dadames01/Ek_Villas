@@ -1,6 +1,6 @@
 import React from "react";
 import './HostSection.css'
-import hostphoto from './../../images/EjemploPortadaEk.png';
+import hostphoto from './../../images/home/portadaEk.jpg';
 
 function HostSection() {
     return (

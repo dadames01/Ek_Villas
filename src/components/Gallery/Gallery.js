@@ -1,28 +1,33 @@
 import {useState, useRef} from "react";
 import './Gallery.css'
-import pasion from './../../images/pasion.png';
-import paraiso from './../../images/paraiso.png';
-import linda from './../../images/linda.png';
-import vistahermosa from './../../images/vistahermosa.jpeg';
+import pasion from './../../images/home/pasion.jpeg';
+import paraiso from './../../images/home/paraiso.jpeg';
+import linda from './../../images/home/linda.jpeg';
+import vistahermosa from './../../images/home/vistahermosa.jpeg';
+import { Link } from "react-router-dom";
 
 
-function Gallery() {
+function Gallery({changePage}) {
     const [houses, setHouses] = useState([
     {
        link: pasion,
-       capacity: '10'
+       capacity: '10',
+       name: 'pasion'
     },
     {
         link: paraiso,
-        capacity: '8'
+        capacity: '8',
+        name: 'paraiso'
     },
     {
         link: linda,
-        capacity: '6'
+        capacity: '6',
+        name: 'linda'
     },
     {
         link: vistahermosa,
-        capacity: '2'
+        capacity: '2',
+        name: 'vistahermosa'
     }
     ])
     const originalState = useRef(houses);
@@ -46,12 +51,15 @@ function Gallery() {
             { 
             houses.map(house => {
                 return (
+                    <Link to='villa'>
                     <div className="fl w-50 w-third-m w-25-ns">
                         <div className="aspect-ratio aspect-ratio--1x1">
                             <img src={house.link} alt="house"
-                            className="db bg-center cover aspect-ratio--object" />
+                            className="db bg-center cover aspect-ratio--object"
+                            onClick={() => changePage(house.name)} />
                         </div>
                     </div>
+                    </Link>
                     );
                 })
             }
