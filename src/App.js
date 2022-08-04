@@ -13,6 +13,7 @@ function App() {
 
   const onChangePage = ((villaName) => {
     setVillaName(villaName);
+    window.scrollTo(0, 0)
   })
   return (
     <div>
