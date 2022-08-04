@@ -1,20 +1,43 @@
 {
   "files": {
     "main.css": "/Ek_Villas/static/css/main.41756b1d.css",
-    "main.js": "/Ek_Villas/static/js/main.0614ec0f.js",
+    "main.js": "/Ek_Villas/static/js/main.b92a9fab.js",
     "static/js/787.e7432e95.chunk.js": "/Ek_Villas/static/js/787.e7432e95.chunk.js",
     "static/media/portadaEk.jpg": "/Ek_Villas/static/media/portadaEk.8daaba59cb36aec846c3.jpg",
+    "static/media/linda4.jpeg": "/Ek_Villas/static/media/linda4.37d4032ec4e9941964f5.jpeg",
+    "static/media/linda9.jpeg": "/Ek_Villas/static/media/linda9.53ea5553c9b073747f61.jpeg",
     "static/media/pasion.jpeg": "/Ek_Villas/static/media/pasion.d377bfd40d7ef3d14540.jpeg",
+    "static/media/linda2.jpeg": "/Ek_Villas/static/media/linda2.4e1ec6b3533973bc15c1.jpeg",
+    "static/media/linda3.jpeg": "/Ek_Villas/static/media/linda3.2f1dee0039db811cb4a9.jpeg",
     "static/media/vistahermosa.jpeg": "/Ek_Villas/static/media/vistahermosa.a075ba0fcea03484be29.jpeg",
+    "static/media/linda13.jpeg": "/Ek_Villas/static/media/linda13.ae6f66e3834b511b526b.jpeg",
+    "static/media/linda18.jpeg": "/Ek_Villas/static/media/linda18.81015a9e95a7b368eca9.jpeg",
+    "static/media/linda17.jpeg": "/Ek_Villas/static/media/linda17.a055eef04e549a591ff6.jpeg",
+    "static/media/linda14.jpeg": "/Ek_Villas/static/media/linda14.4494315da9b6278e74c5.jpeg",
+    "static/media/linda15.jpeg": "/Ek_Villas/static/media/linda15.6dc088dd7f73a4c6b3b0.jpeg",
+    "static/media/linda5.jpeg": "/Ek_Villas/static/media/linda5.f9e7274571ccf2ff4c30.jpeg",
+    "static/media/linda6.jpeg": "/Ek_Villas/static/media/linda6.25885b2d7fbd0b713955.jpeg",
+    "static/media/linda11.jpeg": "/Ek_Villas/static/media/linda11.6d57077263fbe774e173.jpeg",
+    "static/media/linda10.jpeg": "/Ek_Villas/static/media/linda10.e4d700252692893b6fb2.jpeg",
+    "static/media/linda16.jpeg": "/Ek_Villas/static/media/linda16.ed7e076078e11470bb3d.jpeg",
+    "static/media/linda7.jpeg": "/Ek_Villas/static/media/linda7.a66ecd5f7b2ceac733bc.jpeg",
+    "static/media/linda22.jpeg": "/Ek_Villas/static/media/linda22.db0bf2078c9c159e378f.jpeg",
+    "static/media/linda20.jpeg": "/Ek_Villas/static/media/linda20.ccb97920b0acaaa8fef3.jpeg",
+    "static/media/linda19.jpeg": "/Ek_Villas/static/media/linda19.f3799290aba60a93aa3d.jpeg",
+    "static/media/linda12.jpeg": "/Ek_Villas/static/media/linda12.572d826d2b4eb363eeae.jpeg",
     "static/media/linda.jpeg": "/Ek_Villas/static/media/linda.6f14cb6d8dfa1810fdf3.jpeg",
+    "static/media/linda1.jpeg": "/Ek_Villas/static/media/linda1.6f14cb6d8dfa1810fdf3.jpeg",
+    "static/media/linda8.jpeg": "/Ek_Villas/static/media/linda8.94ec16ea918a3603e10f.jpeg",
+    "static/media/linda21.jpeg": "/Ek_Villas/static/media/linda21.1ff991662865a50f686c.jpeg",
     "static/media/paraiso.jpeg": "/Ek_Villas/static/media/paraiso.61ce79b57a14d95cbdff.jpeg",
+    "static/media/linda23.jpeg": "/Ek_Villas/static/media/linda23.91e9b7400571268b4cf9.jpeg",
     "index.html": "/Ek_Villas/index.html",
     "main.41756b1d.css.map": "/Ek_Villas/static/css/main.41756b1d.css.map",
-    "main.0614ec0f.js.map": "/Ek_Villas/static/js/main.0614ec0f.js.map",
+    "main.b92a9fab.js.map": "/Ek_Villas/static/js/main.b92a9fab.js.map",
     "787.e7432e95.chunk.js.map": "/Ek_Villas/static/js/787.e7432e95.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41756b1d.css",
-    "static/js/main.0614ec0f.js"
+    "static/js/main.b92a9fab.js"
   ]
 }
