@@ -11,22 +11,22 @@ function Gallery({changePage}) {
     const [houses, setHouses] = useState([
     {
        link: pasion,
-       capacity: '10',
+       capacity: '12',
        name: 'pasion'
     },
     {
         link: paraiso,
-        capacity: '8',
+        capacity: '15',
         name: 'paraiso'
     },
     {
         link: linda,
-        capacity: '6',
+        capacity: '8',
         name: 'linda'
     },
     {
         link: vistahermosa,
-        capacity: '2',
+        capacity: '12',
         name: 'vistahermosa'
     }
     ])
@@ -42,10 +42,9 @@ function Gallery({changePage}) {
             <span>Filtrar por número de invitados </span>
             <select name="houses" id="houses"
              onChange={event =>  filterImages(event.target.value)}>
-                <option value="2">2+</option>
-                <option value="6">6+</option>
-                <option value="8">8+</option>
-                <option value="10">10+</option>
+                <option value="8">8 o menos</option> 
+                <option value="12">12 o menos</option>
+                <option value="15">15 o menos</option>
             </select>
             <main className="cf w-100">
             { 

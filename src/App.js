@@ -16,7 +16,7 @@ function App() {
     window.scrollTo(0, 0)
   })
   return (
-    <div>
+    <div className='App'>
       <Router>
       <NavBar changePage={onChangePage}/>
       <Routes>
