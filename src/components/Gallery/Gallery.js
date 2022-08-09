@@ -5,6 +5,7 @@ import paraiso from './../../images/home/paraiso.jpeg';
 import linda from './../../images/home/linda.jpeg';
 import vistahermosa from './../../images/home/vistahermosa.jpeg';
 import { Link } from "react-router-dom";
+import ImageGallery from 'react-image-gallery';
 
 
 function Gallery({changePage}) {
@@ -12,25 +13,39 @@ function Gallery({changePage}) {
     {
        link: pasion,
        capacity: '12',
-       name: 'pasion'
+       name: 'pasion',
+       description: 'Villa Pasión'
     },
     {
         link: paraiso,
         capacity: '15',
-        name: 'paraiso'
+        name: 'paraiso',
+        description: 'Villa Paraiso'
     },
     {
         link: linda,
         capacity: '8',
-        name: 'linda'
+        name: 'linda',
+        description: 'Villa Linda'
     },
     {
         link: vistahermosa,
         capacity: '12',
-        name: 'vistahermosa'
+        name: 'vistahermosa',
+        description: 'Vista Hermosa'
     }
     ])
     const originalState = useRef(houses);
+
+    var houseImages = houses.map(house => {
+        return(
+            {
+                original: house.link,
+                description: house.description,
+                name: house.name
+            }
+        )
+    })
 
     const filterImages = (selectedCapacity) => {
         setHouses(originalState.current.filter(house => Number(house.capacity) >= selectedCapacity))
@@ -46,23 +61,9 @@ function Gallery({changePage}) {
                 <option value="12">12 o menos</option>
                 <option value="15">15 o menos</option>
             </select>
-            <main className="cf w-100">
-            { 
-            houses.map(house => {
-                return (
-                    <Link to='villa'>
-                    <div className="fl w-50 w-third-m w-25-ns">
-                        <div className="aspect-ratio aspect-ratio--1x1">
-                            <img src={house.link} alt="house"
-                            className="db bg-center cover aspect-ratio--object"
-                            onClick={() => changePage(house.name)} />
-                        </div>
-                    </div>
-                    </Link>
-                    );
-                })
-            }
-            </main>
+            <div className="image-gallery">
+                <ImageGallery items={houseImages} showIndex={true}/>
+            </div>
         </div>
     )
 }

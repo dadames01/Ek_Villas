@@ -1,11 +1,10 @@
 import {assetsLinda, assetsParaiso, assetsPasion, assetsVistaHermosa} from './VillaAssets'
 import './Villa.css'
+import ImageGallery from 'react-image-gallery';
+import "react-image-gallery/styles/css/image-gallery.css";
+
 
 function Villa({villaName}) {
-
-    const changePage = (goTo) => {
-        window.location.href = goTo
-    }
 
     var villa = {}
     switch(villaName) {
@@ -25,6 +24,19 @@ function Villa({villaName}) {
             window.location.href = "https://dadames01.github.io/Ek_Villas/";
             // villa = assetsLinda
             break;
+    }
+
+    const images = villa.photos.map(photo => {
+        return (
+            {
+                original: photo,
+            }
+        )
+    })
+
+
+    const changePage = (goTo) => {
+        window.location.href = goTo
     }
 
     return(
@@ -48,7 +60,7 @@ function Villa({villaName}) {
             <div className='button-margin'>
                 <button className="button-33" onClick={() => changePage(villa.link)}>Comprobar disponibilidad</button>
             </div>
-            <main className="cf w-100">
+            {/* <main className="cf w-100">
                 {
                     villa.photos.map(photo => {
                         return(
@@ -61,7 +73,10 @@ function Villa({villaName}) {
                         )
                     })
                 }
-            </main>
+            </main> */}
+            <div className='image-gallery'>
+                <ImageGallery items={images} showIndex={true}/>
+            </div>
         </div>
     )
 }
