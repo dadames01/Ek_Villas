@@ -34,7 +34,6 @@ function Villa({villaName}) {
         )
     })
 
-
     const changePage = (goTo) => {
         window.location.href = goTo
     }
@@ -75,7 +74,7 @@ function Villa({villaName}) {
                 }
             </main> */}
             <div className='image-gallery'>
-                <ImageGallery items={images} showIndex={true}/>
+                <ImageGallery items={images} showIndex={true} lazyLoad={true}/>
             </div>
         </div>
     )
