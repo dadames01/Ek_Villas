@@ -1,3 +1,8 @@
+.villaDescription {
+    text-align: left;
+    margin-left: 1%;
+}
+
 .button-margin {
     margin-bottom: 20px;
 }
@@ -48,7 +53,11 @@
 }
 
 .fullscreen .image-gallery-slide img {
-    max-height: 100vh;
+    /* max-height: 100vh; */
+    height: 70vh;
+    padding-bottom: 30%;
+    width: 100vw;
+    object-position: center center;
 }
   
 

@@ -105,6 +105,29 @@ import pasion35 from '../../images/pasion/pasion35.jpeg'
 import pasion36 from '../../images/pasion/pasion36.jpeg'
 import pasion37 from '../../images/pasion/pasion37.jpeg'
 
+import paraiso1 from '../../images/paraiso/paraiso1.jpeg'
+import paraiso2 from '../../images/paraiso/paraiso2.jpeg'
+import paraiso3 from '../../images/paraiso/paraiso3.jpeg'
+import paraiso4 from '../../images/paraiso/paraiso4.jpeg'
+import paraiso5 from '../../images/paraiso/paraiso5.jpeg'
+import paraiso6 from '../../images/paraiso/paraiso6.jpeg'
+import paraiso7 from '../../images/paraiso/paraiso7.jpeg'
+import paraiso8 from '../../images/paraiso/paraiso8.jpeg'
+import paraiso9 from '../../images/paraiso/paraiso9.jpeg'
+import paraiso10 from '../../images/paraiso/paraiso10.jpeg'
+import paraiso11 from '../../images/paraiso/paraiso11.jpeg'
+import paraiso12 from '../../images/paraiso/paraiso12.jpeg'
+import paraiso13 from '../../images/paraiso/paraiso13.jpeg'
+import paraiso14 from '../../images/paraiso/paraiso14.jpeg'
+import paraiso15 from '../../images/paraiso/paraiso15.jpeg'
+import paraiso16 from '../../images/paraiso/paraiso16.jpeg'
+import paraiso17 from '../../images/paraiso/paraiso17.jpeg'
+import paraiso18 from '../../images/paraiso/paraiso18.jpeg'
+import paraiso19 from '../../images/paraiso/paraiso19.jpeg'
+import paraiso20 from '../../images/paraiso/paraiso20.jpeg'
+import paraiso21 from '../../images/paraiso/paraiso21.jpeg'
+import paraiso22 from '../../images/paraiso/paraiso22.jpeg'
+
 
 
 const assetsPasion = {
@@ -112,18 +135,20 @@ const assetsPasion = {
     pasion12, pasion13, pasion14, pasion15, pasion16, pasion17, pasion18, pasion19, pasion20, pasion21, pasion22,
     pasion23, pasion24, pasion25, pasion26, pasion27, pasion28, pasion29, pasion30, pasion31, pasion32, pasion33,
     pasion34, pasion35, pasion36, pasion37],
-    description: 'Pasion',
+    description: 'Villa Pasión',
     link: 'https://www.airbnb.es/rooms/36590311?source_impression_id=p3_1659651671_0CBqrDzYZoZ6VcnY'
 }
 const assetsLinda = {
     photos: [linda1, linda2, linda3, linda4, linda5, linda6, linda7, linda8, linda9, linda10, linda11, linda12,
         linda13, linda14, linda15, linda16, linda17, linda18, linda19, linda20, linda21, linda22, linda23],
-    description: 'Linda',
+    description: 'Villa Linda',
     link: 'https://www.airbnb.es/rooms/38516892?source_impression_id=p3_1659617388_q7uDqFaSWnua7TgS'
 }
 const assetsParaiso = {
-    photos: [],
-    description: 'Paraiso',
+    photos: [paraiso1, paraiso2, paraiso3, paraiso4, paraiso5, paraiso6, paraiso7, paraiso8, paraiso9, paraiso10,
+        paraiso11, paraiso12, paraiso13, paraiso14, paraiso15, paraiso16, paraiso17, paraiso18, paraiso19,
+        paraiso20, paraiso21, paraiso22],
+    description: 'Villa Paraiso',
     link: 'https://www.airbnb.es/rooms/41610388?source_impression_id=p3_1659651644_2z%2FdY%2FnJvkGUUKRx'
 }
 const assetsVistaHermosa = {

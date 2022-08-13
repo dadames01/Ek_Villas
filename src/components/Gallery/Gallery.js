@@ -4,11 +4,10 @@ import pasion from './../../images/home/pasion.jpeg';
 import paraiso from './../../images/home/paraiso.jpeg';
 import linda from './../../images/home/linda.jpeg';
 import vistahermosa from './../../images/home/vistahermosa.jpeg';
-import { Link } from "react-router-dom";
 import ImageGallery from 'react-image-gallery';
 
 
-function Gallery({changePage}) {
+function Gallery() {
     const [houses, setHouses] = useState([
     {
        link: pasion,
@@ -61,8 +60,11 @@ function Gallery({changePage}) {
                 <option value="12">12 o menos</option>
                 <option value="15">15 o menos</option>
             </select>
+            <div>
+                <p>Desliza para ver las diferentes propiedades</p>
+            </div>
             <div className="image-gallery">
-                <ImageGallery items={houseImages} showIndex={true}/>
+                <ImageGallery items={houseImages} showIndex={true} useBrowserFullscreen={false}/>
             </div>
         </div>
     )

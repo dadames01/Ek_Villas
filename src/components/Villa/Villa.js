@@ -1,38 +1,19 @@
-import {assetsLinda, assetsParaiso, assetsPasion, assetsVistaHermosa} from './VillaAssets'
 import './Villa.css'
 import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css";
 
 
-function Villa({villaName}) {
 
-    var villa = {}
-    switch(villaName) {
-        case 'pasion':
-            villa = assetsPasion
-            break;
-        case 'linda':
-            villa = assetsLinda
-            break;
-        case 'paraiso':
-            villa = assetsParaiso
-            break;
-        case 'vistahermosa':
-            villa = assetsVistaHermosa
-            break;
-        default:
-            window.location.href = "https://dadames01.github.io/Ek_Villas/";
-            // villa = assetsLinda
-            break;
-    }
 
-    const images = villa.photos.map(photo => {
-        return (
-            {
-                original: photo,
-            }
-        )
-    })
+function Villa({villaAssets}) {
+
+        const images = villaAssets.photos.map(photo => {
+            return (
+                {
+                    original: photo,
+                }
+            )
+        })
 
     const changePage = (goTo) => {
         window.location.href = goTo
@@ -42,9 +23,9 @@ function Villa({villaName}) {
         <div>
             <div>
             {
-                villa.video ? (
+                villaAssets.video ? (
                     <video width="320" height="240" controls>
-                        <source src={villa.video} type="video/mp4"></source>
+                        <source src={villaAssets.video} type="video/mp4"></source>
                     </video>
                 ) : (
                     <div />
@@ -52,29 +33,18 @@ function Villa({villaName}) {
             }
             </div>
             <main className="pa3 pa5-ns">
-                <p className="f4 lh-copy measure">
-                    {villa.description}
-                </p>
+                <h1>
+                    {villaAssets.description}
+                </h1>
             </main>
             <div className='button-margin'>
-                <button className="button-33" onClick={() => changePage(villa.link)}>Comprobar disponibilidad</button>
+                <button className="button-33" onClick={() => changePage(villaAssets.link)}>Comprobar disponibilidad</button>
             </div>
-            {/* <main className="cf w-100">
-                {
-                    villa.photos.map(photo => {
-                        return(
-                            <div className="fl w-50 w-third-m w-25-ns">
-                                <div className="aspect-ratio aspect-ratio--1x1">
-                                        <img className="db bg-center cover aspect-ratio--object" alt='house part'
-                                        src={photo} />
-                                </div>
-                            </div>
-                        )
-                    })
-                }
-            </main> */}
+            <div>
+                <p>Desliza para ver las fotos</p>
+            </div>
             <div className='image-gallery'>
-                <ImageGallery items={images} showIndex={true} lazyLoad={true}/>
+                <ImageGallery items={images} showIndex={true} lazyLoad={true} useBrowserFullscreen={false}/>
             </div>
         </div>
     )
