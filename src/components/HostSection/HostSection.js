@@ -1,7 +1,7 @@
 import React from "react";
 import './HostSection.css'
 // import hostphoto from './../../images/home/portadaEk.jpg';
-import hostphoto from './../../images/home/portadaTest.jpeg';
+import hostphoto from './../../images/home/portadaEk.jpeg';
 
 
 function HostSection() {
