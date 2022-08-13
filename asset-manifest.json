@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ek_Villas/static/css/main.11f0afab.css",
-    "main.js": "/Ek_Villas/static/js/main.98d1e523.js",
+    "main.css": "/Ek_Villas/static/css/main.4ef9598c.css",
+    "main.js": "/Ek_Villas/static/js/main.1fa7b16b.js",
     "static/js/787.e7432e95.chunk.js": "/Ek_Villas/static/js/787.e7432e95.chunk.js",
     "static/media/videovistahermosa.mp4": "/Ek_Villas/static/media/videovistahermosa.d75ee099ce83d87c8ec1.mp4",
     "static/media/portadaEk.jpg": "/Ek_Villas/static/media/portadaEk.81cc4e02532b31653dd6.jpg",
@@ -113,12 +113,12 @@
     "static/media/linda23.jpeg": "/Ek_Villas/static/media/linda23.91e9b7400571268b4cf9.jpeg",
     "static/media/pasion35.jpeg": "/Ek_Villas/static/media/pasion35.2efb335aeb2f6c0f3bb3.jpeg",
     "index.html": "/Ek_Villas/index.html",
-    "main.11f0afab.css.map": "/Ek_Villas/static/css/main.11f0afab.css.map",
-    "main.98d1e523.js.map": "/Ek_Villas/static/js/main.98d1e523.js.map",
+    "main.4ef9598c.css.map": "/Ek_Villas/static/css/main.4ef9598c.css.map",
+    "main.1fa7b16b.js.map": "/Ek_Villas/static/js/main.1fa7b16b.js.map",
     "787.e7432e95.chunk.js.map": "/Ek_Villas/static/js/787.e7432e95.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11f0afab.css",
-    "static/js/main.98d1e523.js"
+    "static/css/main.4ef9598c.css",
+    "static/js/main.1fa7b16b.js"
   ]
 }
