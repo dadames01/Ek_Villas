@@ -16,11 +16,11 @@ function App() {
       <Router>
       <NavBar/>
       <Routes>
-          <Route exact path='/Ek_Villas' element={<div><HostSection /> <Gallery/></div>}></Route>
-          <Route exact path='/Ek_Villas/pasion' element={<Pasion />}></Route>
-          <Route exact path='/Ek_Villas/linda' element={<Linda />}></Route>
-          <Route exact path='/Ek_Villas/paraiso' element={<Paraiso />}></Route>
-          <Route exact path='/Ek_Villas/vistahermosa' element={<VistaHemosa />}></Route>
+          <Route exact path='/' element={<div><HostSection /> <Gallery/></div>}></Route>
+          <Route exact path='/pasion' element={<Pasion />}></Route>
+          <Route exact path='/linda' element={<Linda />}></Route>
+          <Route exact path='/paraiso' element={<Paraiso />}></Route>
+          <Route exact path='/vistahermosa' element={<VistaHemosa />}></Route>
       </Routes>
       </Router>
     </div>
