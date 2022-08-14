@@ -8,7 +8,7 @@ function HostSection() {
     return (
         <div>
             <h1 className="tc ph4 f3 f2-m f1-l fw2 black-90 mv3">
-                Conoce a tu host
+                Conoce a tu Host
             </h1>
             <div className="dt mw6 center pt0 pb5 pv5-m pv6-ns">
                 <div className="db dtc-ns v-mid-ns">
@@ -18,7 +18,7 @@ function HostSection() {
                     <div className="lh-copy">
                     <p>Lic. En Administración de Mercados con Maestría en Alta Gerencia. Apasionada por el diseño de interiores, paisajismo  y  decoración en general. </p>
                     <p>Enfocada y comprometida en generar a mis huéspedes la mejor de las experiencias, brindándoles un servicio de calidad y una estadía por encima de sus expectativas.</p>
-                    <p>Si quieres vivir unos días cargados de magia, en lugares llenos de buen gusto y confort!!! Llámame…</p>
+                    <p>Si quieres vivir días cargados de magia, en lugares llenos de buen gusto y confort!!! Llámame…</p>
                     <p>Estoy para servirte</p>
                     <p>-Ekmania</p> 
                     </div>

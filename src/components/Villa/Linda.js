@@ -8,7 +8,7 @@ const Linda = () => {
                 <Villa villaAssets={assetsLinda} />
             </div>
             <div className="villaDescription">
-                <p>Así como su nombre lo indica…villa linda es una casa muy LINDA cargada de muchos detalles. Excelente para salidas en parejas y familiares. A pesar de ser muy compacta posee todas las comodidades de una villa de mayor tamaño.</p>
+                <p>Así como su nombre lo indica…villa Linda es una casa muy LINDA cargada de muchos detalles. Excelente para salidas en parejas y familiares. A pesar de ser muy compacta posee todas las comodidades de una villa de mayor tamaño.</p>
                 <br></br>
                 <h1>Características</h1>
                 <p>Capacidad 8 personas</p>

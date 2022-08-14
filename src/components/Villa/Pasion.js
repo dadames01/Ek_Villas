@@ -8,14 +8,14 @@ const Pasion = () => {
                 <Villa villaAssets={assetsPasion} />
             </div>
             <div className="villaDescription">
-                <p>Villa pasión es una casa muy cómoda para recibir familiares y amigos por su amplio patio de 900mt2. Es una casa hermosa cargada de muchos detalles. Podrás disfrutar de un amplio jardín  donde niños y mascotas corretearan al aire libre disfrutando de la naturaleza y del clima fabuloso de jarabacoa.</p>
+                <p>Villa Pasión es una cabaña muy cómoda para recibir familiares y amigos por su amplio patio de 900mt2. Es una cabaña hermosa cargada de muchos detalles. Podrás disfrutar de un amplio jardín, donde niños y mascotas corretearan al aire libre disfrutando de la naturaleza y del fabuloso clima de jarabacoa.</p>
                 <br></br>
                 <h1>Características</h1>
                 <p>Capacidad para 14 personas</p>
                 <p>Dos niveles</p>
                 <p>Habitación principal en el segundo nivel, 1 cama Queen, baño, abanico.</p>
                 <p>Habitación secundaria en el segundo nivel con 1 cama Queen y una  litera de dos camas twin, baño y abanico.</p>
-                <p>Amplia habitación familiar con entrada independiente en el primer nivel, con dos camas full y dos juegos de literas con 4 camas twin. 1.5 baños y abanico.</p>
+                <p>Amplia habitación familiar con entrada independiente en el primer nivel, con dos camas full y dos juegos de literas con 4 camas twin, 1.5 baños y abanico.</p>
                 <p>Cocina completamente equipada</p>
                 <p>Electrodomésticos (nevera, estufa con horno, tostadora, microondas y licuadora)</p>
                 <p>Descorchador eléctrico, copas, champanera.</p>
@@ -50,7 +50,9 @@ const Pasion = () => {
                 <p>No permitimos bocinas con amplificación </p>
                 <p>Los vehículos adicionales deben parquearse fuera del proyecto.</p>
                 <br></br>
-                <h1>¡Te desaseamos la mejor de las estadías! Estamos para servirte</h1>
+                <h1>¡Te desaseamos la mejor de las estadías! </h1>
+                <br></br>
+                <h1>Estamos para servirte</h1>
                 <br></br>
             </div>
         </div>

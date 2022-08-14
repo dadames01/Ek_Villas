@@ -9,7 +9,7 @@ const VistaHemosa = () => {
             </div>
             <div className="villaDescription">
                 <p>Esta villa está finamente decorada cuidando cada detalle, desde su hermoso jardín de suculentas hasta las tasas del café. Todo ha sido pensado para la comodidad de nuestros huéspedes. Es una casa ideal para recibir familiares y amigos por sus diferentes espacios que combinan la comodidad del interior, con las hermosas vistas hacia las montañas.</p>
-                <p>Vista hermosa es un espectáculo de luces en la noche y durante el día puedes contemplar la naturaleza en todo su esplendor.</p>
+                <p>Vista Hermosa es un espectáculo de luces en la noche y durante el día puedes contemplar la naturaleza en todo su esplendor.</p>
                 <br></br>    
                 <h1>Características:</h1>
                 <p>Capacidad:12 personas</p>
