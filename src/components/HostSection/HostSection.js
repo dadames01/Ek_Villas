@@ -1,6 +1,5 @@
 import React from "react";
 import './HostSection.css'
-// import hostphoto from './../../images/home/portadaEk.jpg';
 import hostphoto from './../../images/home/portadaEk.jpeg';
 
 

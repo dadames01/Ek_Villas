@@ -1,11 +1,20 @@
-import React from "react";
+import React, {useEffect} from "react";
 import './NavBar.css';
-import {Link, useNavigate} from 'react-router-dom'
+import {Link, useNavigate, useSearchParams} from 'react-router-dom'
 
 function NavBar() {
     const navigate = useNavigate();
+    const [searchParams] = useSearchParams();
+    const allowedVillaInputs = ['pasion', 'linda', 'paraiso', 'vistahermosa'];
+
     const changePage = ((villaName) => {
       navigate(villaName);
+    })
+
+    useEffect(() => {
+        if(searchParams.get('villa') && allowedVillaInputs.includes(searchParams.get('villa'))) {
+            changePage(searchParams.get('villa'))
+        }
     })
     return (
         <div>
