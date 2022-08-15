@@ -14,12 +14,7 @@ function NavBar({changePage}) {
     })
 
     const handleUrl = ((pageName) => {
-        const param = searchParams.get('villa');
-        if (param) {
-          // 👇️ delete each query param before going to the new page
-          setSearchParams('');
-
-        }
+        setSearchParams({villa: pageName});
         changePage(pageName);
     })
     return (
