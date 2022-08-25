@@ -41,6 +41,10 @@ const VistaHemosa = () => {
                 <p>Mesa de domino</p>
                 <br></br>
                 <p>Vista Hermosa está ubicada en un proyecto cerrado, con portón eléctrico y Seguridad </p>
+                <h1>Entradas y salidas</h1>
+                <h2>Checking: 2:00 PM</h2>
+                <h2>Checkout: 12:00 PM</h2>
+                <br></br>
                 <h1>Reglas de la casa: </h1>
                 <p>No se permite el uso de hooka en la propiedad </p>
                 <p>No se permite fiestas ni eventos </p>
@@ -48,7 +52,18 @@ const VistaHemosa = () => {
                 <p>No permitimos bocinas con amplificación </p>
                 <p>Los vehículos adicionales deben parquearse fuera del proyecto.</p>
                 <br></br>
-                <h1>¡Te desaseamos la mejor de las estadías! Estamos para servirte</h1>
+                <h1>Métodos de pago</h1>
+                <p>Para reservar depositar o transferir el 50% a la siguiente cuenta:</p>
+                <p><b>Cuentas de ahorro Banco Popular</b></p>
+                <ul>
+                    <li>En pesos.  No. 769373408</li>
+                    <li>En dólares. No.  818235178</li>
+                </ul>
+                <p>A nombre de Ekmania Pérez </p>
+                <p>Cédula  001-1147566-1</p>
+                <h1>¡Te desaseamos la mejor de las estadías! </h1>
+                <br></br>
+                <h1>Estamos para servirte</h1>
                 <br></br>
             </div>
         </div>

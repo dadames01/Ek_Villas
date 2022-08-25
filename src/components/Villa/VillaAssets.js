@@ -136,20 +136,26 @@ const assetsPasion = {
     pasion23, pasion24, pasion25, pasion26, pasion27, pasion28, pasion29, pasion30, pasion31, pasion32, pasion33,
     pasion34, pasion35, pasion36, pasion37],
     description: 'Villa Pasión',
-    link: 'https://www.airbnb.es/rooms/36590311?source_impression_id=p3_1659651671_0CBqrDzYZoZ6VcnY'
+    link: 'https://www.airbnb.es/rooms/36590311?source_impression_id=p3_1659651671_0CBqrDzYZoZ6VcnY',
+    region: 'Jarabacoa',
+    locationLink: "https://www.google.com/maps?q=19.11957359313965,-70.62120056152344&z=17&hl=es"
 }
 const assetsLinda = {
     photos: [linda1, linda2, linda3, linda4, linda5, linda6, linda7, linda8, linda9, linda10, linda11, linda12,
         linda13, linda14, linda15, linda16, linda17, linda18, linda19, linda20, linda21, linda22, linda23],
     description: 'Villa Linda',
-    link: 'https://www.airbnb.es/rooms/38516892?source_impression_id=p3_1659617388_q7uDqFaSWnua7TgS'
+    link: 'https://www.airbnb.es/rooms/38516892?source_impression_id=p3_1659617388_q7uDqFaSWnua7TgS',
+    region: 'Jarabacoa',
+    locationLink: "https://www.google.com/maps?q=19.11957359313965,-70.62120056152344&z=17&hl=es"
 }
 const assetsParaiso = {
     photos: [paraiso1, paraiso2, paraiso3, paraiso4, paraiso5, paraiso6, paraiso7, paraiso8, paraiso9, paraiso10,
         paraiso11, paraiso12, paraiso13, paraiso14, paraiso15, paraiso16, paraiso17, paraiso18, paraiso19,
         paraiso20, paraiso21, paraiso22],
     description: 'Villa Paraiso',
-    link: 'https://www.airbnb.es/rooms/41610388?source_impression_id=p3_1659651644_2z%2FdY%2FnJvkGUUKRx'
+    link: 'https://www.airbnb.es/rooms/41610388?source_impression_id=p3_1659651644_2z%2FdY%2FnJvkGUUKRx',
+    region: 'Manoguayabo - Santo Domingo Oeste',
+    locationLink: "https://www.google.com/maps/place/18%C2%B028'31.0%22N+70%C2%B000'33.7%22W/@18.4752846,-70.0115423,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xef647601ed39d607!8m2!3d18.4752846!4d-70.0093536?hl=es"
 }
 const assetsVistaHermosa = {
     photos: [vistahermosa1, vistahermosa2, vistahermosa3, vistahermosa4, vistahermosa5, vistahermosa6, vistahermosa7,
@@ -161,7 +167,9 @@ const assetsVistaHermosa = {
         vistahermosa43 ],
     video: videoVistaHermosa,
     description: 'Vista Hermosa',
-    link: 'https://www.airbnb.es/rooms/53071179?source_impression_id=p3_1659651612_QZNEeVDIb%2FZO5kmP'
+    link: 'https://www.airbnb.es/rooms/53071179?source_impression_id=p3_1659651612_QZNEeVDIb%2FZO5kmP',
+    region: 'Jarabacoa',
+    locationLink: "https://www.google.com/maps?q=19.117631912231445,-70.62246704101562&z=17&hl=es"
 }
 
 export {assetsLinda, assetsParaiso, assetsPasion, assetsVistaHermosa}

@@ -36,15 +36,17 @@ function Villa({villaAssets}) {
                 <h1>
                     {villaAssets.description}
                 </h1>
+                <p><h4>{villaAssets.region} <a href={villaAssets.locationLink}>(Ver ubicación)</a></h4></p>
             </main>
-            <div className='button-margin'>
-                <button className="button-33" onClick={() => changePage(villaAssets.link)}>Comprobar disponibilidad</button>
-            </div>
             <div>
                 <p>Desliza para ver las fotos</p>
             </div>
             <div className='image-gallery'>
                 <ImageGallery items={images} showIndex={true} lazyLoad={true} useBrowserFullscreen={false}/>
+            </div>
+            <br></br>
+            <div className='button-margin'>
+                <button className="button-33" onClick={() => changePage(villaAssets.link)}>Comprobar disponibilidad</button>
             </div>
         </div>
     )
