@@ -4,6 +4,7 @@ import pasion from './../../images/home/pasion.jpeg';
 import paraiso from './../../images/home/paraiso.jpeg';
 import linda from './../../images/home/linda.jpeg';
 import vistahermosa from './../../images/home/vistahermosa.jpeg';
+import grecia from './../../images/home/grecia.jpeg';
 import ImageGallery from 'react-image-gallery';
 
 
@@ -32,7 +33,13 @@ function Gallery() {
         capacity: '12',
         name: 'vistahermosa',
         description: 'Vista Hermosa'
-    }
+    },
+    {
+        link: grecia,
+        capacity: '14',
+        name: 'Grecia',
+        description: 'Villa Grecia'
+    },
     ])
     const originalState = useRef(houses);
 
@@ -58,6 +65,7 @@ function Gallery() {
              onChange={event =>  filterImages(event.target.value)}>
                 <option value="8">8 o menos</option> 
                 <option value="12">12 o menos</option>
+                <option value="14">14 o menos</option>
                 <option value="15">15 o menos</option>
             </select>
             <div>

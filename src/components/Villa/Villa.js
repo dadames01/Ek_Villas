@@ -45,8 +45,14 @@ function Villa({villaAssets}) {
                 <ImageGallery items={images} showIndex={true} lazyLoad={true} useBrowserFullscreen={false}/>
             </div>
             <br></br>
-            <div className='button-margin'>
-                <button className="button-33" onClick={() => changePage(villaAssets.link)}>Comprobar disponibilidad</button>
+            <div>
+            {
+                villaAssets.link ? (
+                    <button className="button-33" onClick={() => changePage(villaAssets.link)}>Comprobar disponibilidad</button>
+                ) : (
+                    <div />
+                )
+            }
             </div>
         </div>
     )

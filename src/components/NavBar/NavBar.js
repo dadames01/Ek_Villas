@@ -4,7 +4,7 @@ import { useSearchParams } from 'react-router-dom'
 
 function NavBar({changePage}) {
     const [searchParams, setSearchParams] = useSearchParams();
-    const allowedVillaInputs = ['pasion', 'linda', 'paraiso', 'vistahermosa'];
+    const allowedVillaInputs = ['pasion', 'linda', 'paraiso', 'vistahermosa', 'grecia'];
 
     //Show specific house if person entered with a specific house link (e.g ?villa=pasion)
     useEffect(() => {
@@ -30,6 +30,7 @@ function NavBar({changePage}) {
                 <span className="f6 f5-l link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l" href="/villa" onClick={() => handleUrl('linda')}>Linda</span>
                 <span className="f6 f5-l link bg-animate black-80 hover-bg-light-pink dib pa3 ph4-l" href="/villa" onClick={() => handleUrl('paraiso')}>Paraiso</span>
                 <span className="f6 f5-l link bg-animate black-80 hover-bg-light-yellow dib pa3 ph4-l" href="/villa" onClick={() => handleUrl('vistahermosa')}>Vista Hermosa</span>
+                <span className="f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l" onClick={() => handleUrl('grecia')}>Grecia</span>
             </nav>
             </header>
         </div>

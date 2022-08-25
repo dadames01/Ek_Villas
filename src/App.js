@@ -9,6 +9,7 @@ import Pasion from './components/Villa/Pasion';
 import Linda from './components/Villa/Linda';
 import Paraiso from './components/Villa/Paraiso';
 import VistaHemosa from './components/Villa/Vistahermosa';
+import Grecia from './components/Villa/Grecia';
 
 function App() {
   const [page, setPage] = useState('/')
@@ -31,6 +32,8 @@ function App() {
             return <Paraiso />
           case 'vistahermosa':
             return <VistaHemosa />
+          case 'grecia':
+            return <Grecia />
           default:
             return <div><HostSection/> <Gallery /></div>
         }
