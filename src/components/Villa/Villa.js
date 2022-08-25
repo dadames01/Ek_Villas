@@ -36,7 +36,7 @@ function Villa({villaAssets}) {
                 <h1>
                     {villaAssets.description}
                 </h1>
-                <p><h4>{villaAssets.region} <a href={villaAssets.locationLink}>(Ver ubicación)</a></h4></p>
+                <h4><p>{villaAssets.region} <a href={villaAssets.locationLink}>(Ver ubicación)</a></p></h4>
             </main>
             <div>
                 <p>Desliza para ver las fotos</p>

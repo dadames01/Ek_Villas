@@ -45,8 +45,8 @@ const Linda = () => {
                 <p>Villa Linda está ubicada en un proyecto cerrado con seguridad 24 horas, tiene un área social con piscina infiniti que puedes utilizar según las reglas y horarios del proyecto. 
                     Ojo: esto es un beneficio adicional que maneja el proyecto, no depende de nosotros el cuidado del área. 
                 </p>
-                <h1>Entradas y salidas</h1>
-                <h2>Checking: 2:00 PM</h2>
+                <h1>Checkin/out</h1>
+                <h2>Checkin: 2:00 PM</h2>
                 <h2>Checkout: 12:00 PM</h2>
                 <br></br>
                 <h1>Reglas de la casa: </h1>

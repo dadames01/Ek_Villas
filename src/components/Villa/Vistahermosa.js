@@ -41,7 +41,7 @@ const VistaHemosa = () => {
                 <p>Mesa de domino</p>
                 <br></br>
                 <p>Vista Hermosa está ubicada en un proyecto cerrado, con portón eléctrico y Seguridad </p>
-                <h1>Entradas y salidas</h1>
+                <h1>Checkin/out</h1>
                 <h2>Checking: 2:00 PM</h2>
                 <h2>Checkout: 12:00 PM</h2>
                 <br></br>

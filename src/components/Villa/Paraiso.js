@@ -49,7 +49,7 @@ const Paraiso = () => {
                 <p>Mesa de domino</p>
                 <p>Billar</p>
                 <br></br>
-                <h1>Entradas y salidas</h1>
+                <h1>Checkin/out</h1>
                 <h2>Checking: 2:00 PM</h2>
                 <h2>Checkout: 12:00 PM</h2>
                 <br></br>
