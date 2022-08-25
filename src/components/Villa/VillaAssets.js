@@ -128,6 +128,29 @@ import paraiso20 from '../../images/paraiso/paraiso20.jpeg'
 import paraiso21 from '../../images/paraiso/paraiso21.jpeg'
 import paraiso22 from '../../images/paraiso/paraiso22.jpeg'
 
+import grecia1 from '../../images/grecia/grecia1.jpeg'
+import grecia2 from '../../images/grecia/grecia2.jpeg'
+import grecia3 from '../../images/grecia/grecia3.jpeg'
+import grecia4 from '../../images/grecia/grecia4.jpeg'
+import grecia5 from '../../images/grecia/grecia5.jpeg'
+import grecia6 from '../../images/grecia/grecia6.jpeg'
+import grecia7 from '../../images/grecia/grecia7.jpeg'
+import grecia8 from '../../images/grecia/grecia8.jpeg'
+import grecia9 from '../../images/grecia/grecia9.jpeg'
+import grecia10 from '../../images/grecia/grecia10.jpeg'
+import grecia11 from '../../images/grecia/grecia11.jpeg'
+import grecia12 from '../../images/grecia/grecia12.jpeg'
+import grecia13 from '../../images/grecia/grecia13.jpeg'
+import grecia14 from '../../images/grecia/grecia14.jpeg'
+import grecia15 from '../../images/grecia/grecia15.jpeg'
+import grecia16 from '../../images/grecia/grecia16.jpeg'
+import grecia17 from '../../images/grecia/grecia17.jpeg'
+import grecia18 from '../../images/grecia/grecia18.jpeg'
+import grecia19 from '../../images/grecia/grecia19.jpeg'
+import grecia20 from '../../images/grecia/grecia20.jpeg'
+import grecia21 from '../../images/grecia/grecia21.jpeg'
+
+
 
 
 const assetsPasion = {
@@ -172,4 +195,12 @@ const assetsVistaHermosa = {
     locationLink: "https://www.google.com/maps?q=19.117631912231445,-70.62246704101562&z=17&hl=es"
 }
 
-export {assetsLinda, assetsParaiso, assetsPasion, assetsVistaHermosa}
+const assetsGrecia = {
+    photos: [grecia1, grecia2, grecia3, grecia4, grecia5, grecia6, grecia7, grecia8, grecia9, grecia10, grecia11,
+        grecia12, grecia13, grecia14, grecia15, grecia16, grecia17, grecia18, grecia19, grecia20, grecia21],
+    description: 'Villa Grecia',
+    region: 'Bonao - entrada de Constanza',
+    locationLink: "https://www.google.com/maps?q=19.01980972290039,-70.45092010498047&z=17&hl=es"
+}
+
+export {assetsLinda, assetsParaiso, assetsPasion, assetsVistaHermosa, assetsGrecia}
