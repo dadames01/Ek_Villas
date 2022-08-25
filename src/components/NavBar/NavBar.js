@@ -12,7 +12,7 @@ function NavBar({changePage}) {
             changePage(searchParams.get('villa'))
         }
     })
-
+    //We handle it in the navBar because the set search params can only be used inside of the router component.
     const handleUrl = ((pageName) => {
         setSearchParams({villa: pageName});
         changePage(pageName);

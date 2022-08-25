@@ -43,12 +43,15 @@ const Paraiso = () => {
                 <p>Jabón de tocador para los baños</p>
                 <p>Papel de baño </p>
                 <p>Ropa de cama blanca</p>
-                <p>Toallas blancas para los baños</p>
                 <p>Gas incluido</p>
                 <p>Bebedero con botellón de agua incluido</p>
                 <p>Wifi</p>
                 <p>Mesa de domino</p>
                 <p>Billar</p>
+                <br></br>
+                <h1>Entradas y salidas</h1>
+                <h2>Checking: 2:00 PM</h2>
+                <h2>Checkout: 12:00 PM</h2>
                 <br></br>
                 <h1>Reglas de la casa: </h1>
                 <p>No se permite el uso de hooka dentro de la casa </p>
@@ -58,7 +61,18 @@ const Paraiso = () => {
                 <p>No permitimos bocinas con amplificación </p>
                 <p>Prohibido tocar los frutales, si hay mangos en el piso si pueden tomarlos de lo contrario no pueden tocar las matas.</p>
                 <br></br>
-                <h1>¡Te desaseamos la mejor de las estadías! Estamos para servirte</h1>
+                <h1>Métodos de pago</h1>
+                <p>Para reservar depositar o transferir el 50% a la siguiente cuenta:</p>
+                <p><b>Cuentas de ahorro Banco Popular</b></p>
+                <ul>
+                    <li>En pesos.  No. 769373408</li>
+                    <li>En dólares. No.  818235178</li>
+                </ul>
+                <p>A nombre de Ekmania Pérez </p>
+                <p>Cédula  001-1147566-1</p>
+                <h1>¡Te desaseamos la mejor de las estadías! </h1>
+                <br></br>
+                <h1>Estamos para servirte</h1>
                 <br></br>
             </div>
         </div>
