@@ -1,3 +1,4 @@
+import homeLinda from '../../images/linda/homelinda.jpeg' 
 import linda1 from '../../images/linda/linda1.jpeg'
 import linda2 from '../../images/linda/linda2.jpeg'
 import linda3 from '../../images/linda/linda3.jpeg'
@@ -23,6 +24,7 @@ import linda22 from '../../images/linda/linda22.jpeg'
 import linda23 from '../../images/linda/linda23.jpeg'
 
 import videoVistaHermosa from '../../Video/vistahermosa/videovistahermosa.mp4'
+import homeVistaHermosa from '../../images/vistahermosa/homevistahermosa.jpeg'
 import vistahermosa1 from '../../images/vistahermosa/vistahermosa1.jpeg'
 import vistahermosa2 from '../../images/vistahermosa/vistahermosa2.jpeg'
 import vistahermosa3 from '../../images/vistahermosa/vistahermosa3.jpeg'
@@ -67,6 +69,7 @@ import vistahermosa41 from '../../images/vistahermosa/vistahermosa41.jpeg'
 import vistahermosa42 from '../../images/vistahermosa/vistahermosa42.jpeg'
 import vistahermosa43 from '../../images/vistahermosa/vistahermosa43.jpeg'
 
+import homePasion from '../../images/pasion/homepasion.jpeg'
 import pasion1 from '../../images/pasion/pasion1.jpeg'
 import pasion2 from '../../images/pasion/pasion2.jpeg'
 import pasion3 from '../../images/pasion/pasion3.jpeg'
@@ -110,7 +113,7 @@ import pasion40 from '../../images/pasion/pasion40.jpeg'
 import pasion41 from '../../images/pasion/pasion41.jpeg'
 import pasion42 from '../../images/pasion/pasion42.jpeg'
 
-
+import homeParaiso from '../../images/paraiso/homeparaiso.jpeg'
 import paraiso1 from '../../images/paraiso/paraiso1.jpeg'
 import paraiso2 from '../../images/paraiso/paraiso2.jpeg'
 import paraiso3 from '../../images/paraiso/paraiso3.jpeg'
@@ -134,6 +137,7 @@ import paraiso20 from '../../images/paraiso/paraiso20.jpeg'
 import paraiso21 from '../../images/paraiso/paraiso21.jpeg'
 import paraiso22 from '../../images/paraiso/paraiso22.jpeg'
 
+import homeGrecia from '../../images/grecia/homegrecia.jpeg'
 import grecia1 from '../../images/grecia/grecia1.jpeg'
 import grecia2 from '../../images/grecia/grecia2.jpeg'
 import grecia3 from '../../images/grecia/grecia3.jpeg'
@@ -164,27 +168,36 @@ const assetsPasion = {
     pasion12, pasion13, pasion14, pasion15, pasion16, pasion17, pasion18, pasion19, pasion20, pasion21, pasion22,
     pasion23, pasion24, pasion25, pasion26, pasion27, pasion28, pasion29, pasion30, pasion31, pasion32, pasion33,
     pasion34, pasion35, pasion36, pasion37, pasion38, pasion39, pasion40, pasion41, pasion42],
+    homePhoto: homePasion,
     description: 'Villa Pasión',
     link: 'https://www.airbnb.es/rooms/36590311?source_impression_id=p3_1659651671_0CBqrDzYZoZ6VcnY',
     region: 'Jarabacoa',
-    locationLink: "https://www.google.com/maps?q=19.11957359313965,-70.62120056152344&z=17&hl=es"
+    locationLink: "https://www.google.com/maps?q=19.11957359313965,-70.62120056152344&z=17&hl=es",
+    capacity: '12',
+    name: 'pasion'
 }
 const assetsLinda = {
     photos: [linda1, linda2, linda3, linda4, linda5, linda6, linda7, linda8, linda9, linda10, linda11, linda12,
         linda13, linda14, linda15, linda16, linda17, linda18, linda19, linda20, linda21, linda22, linda23],
+    homePhoto: homeLinda,
     description: 'Villa Linda',
     link: 'https://www.airbnb.es/rooms/38516892?source_impression_id=p3_1659617388_q7uDqFaSWnua7TgS',
     region: 'Jarabacoa',
-    locationLink: "https://www.google.com/maps?q=19.11957359313965,-70.62120056152344&z=17&hl=es"
+    locationLink: "https://www.google.com/maps?q=19.11957359313965,-70.62120056152344&z=17&hl=es",
+    capacity: '8',
+    name: 'pasion'
 }
 const assetsParaiso = {
     photos: [paraiso1, paraiso2, paraiso3, paraiso4, paraiso5, paraiso6, paraiso7, paraiso8, paraiso9, paraiso10,
         paraiso11, paraiso12, paraiso13, paraiso14, paraiso15, paraiso16, paraiso17, paraiso18, paraiso19,
         paraiso20, paraiso21, paraiso22],
+    homePhoto: homeParaiso,
     description: 'Villa Paraiso',
     link: 'https://www.airbnb.es/rooms/41610388?source_impression_id=p3_1659651644_2z%2FdY%2FnJvkGUUKRx',
     region: 'Manoguayabo - Santo Domingo Oeste',
-    locationLink: "https://www.google.com/maps/place/18%C2%B028'31.0%22N+70%C2%B000'33.7%22W/@18.4752846,-70.0115423,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xef647601ed39d607!8m2!3d18.4752846!4d-70.0093536?hl=es"
+    locationLink: "https://www.google.com/maps/place/18%C2%B028'31.0%22N+70%C2%B000'33.7%22W/@18.4752846,-70.0115423,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xef647601ed39d607!8m2!3d18.4752846!4d-70.0093536?hl=es",
+    capacity: '15',
+    name: 'pasion'
 }
 const assetsVistaHermosa = {
     photos: [vistahermosa1, vistahermosa2, vistahermosa3, vistahermosa4, vistahermosa5, vistahermosa6, vistahermosa7,
@@ -194,19 +207,25 @@ const assetsVistaHermosa = {
         vistahermosa29, vistahermosa30, vistahermosa31, vistahermosa32, vistahermosa33, vistahermosa34, vistahermosa35,
         vistahermosa36, vistahermosa37, vistahermosa38, vistahermosa39, vistahermosa40, vistahermosa41, vistahermosa42,
         vistahermosa43 ],
+    homePhoto: homeVistaHermosa,
     video: videoVistaHermosa,
     description: 'Vista Hermosa',
     link: 'https://www.airbnb.es/rooms/53071179?source_impression_id=p3_1659651612_QZNEeVDIb%2FZO5kmP',
     region: 'Jarabacoa',
-    locationLink: "https://www.google.com/maps?q=19.117631912231445,-70.62246704101562&z=17&hl=es"
+    locationLink: "https://www.google.com/maps?q=19.117631912231445,-70.62246704101562&z=17&hl=es",
+    capacity: '12',
+    name: 'pasion'
 }
 
 const assetsGrecia = {
     photos: [grecia1, grecia2, grecia3, grecia4, grecia5, grecia6, grecia7, grecia8, grecia9, grecia10, grecia11,
         grecia12, grecia13, grecia14, grecia15, grecia16, grecia17, grecia18, grecia19, grecia20, grecia21],
+    homePhoto: homeGrecia, 
     description: 'Villa Grecia',
     region: 'Bonao - entrada de Constanza',
-    locationLink: "https://www.google.com/maps?q=19.01980972290039,-70.45092010498047&z=17&hl=es"
+    locationLink: "https://www.google.com/maps?q=19.01980972290039,-70.45092010498047&z=17&hl=es",
+    capacity: '14',
+    name: 'pasion'
 }
 
 export {assetsLinda, assetsParaiso, assetsPasion, assetsVistaHermosa, assetsGrecia}
