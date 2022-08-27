@@ -104,6 +104,12 @@ import pasion34 from '../../images/pasion/pasion34.jpeg'
 import pasion35 from '../../images/pasion/pasion35.jpeg'
 import pasion36 from '../../images/pasion/pasion36.jpeg'
 import pasion37 from '../../images/pasion/pasion37.jpeg'
+import pasion38 from '../../images/pasion/pasion38.jpeg'
+import pasion39 from '../../images/pasion/pasion39.jpeg'
+import pasion40 from '../../images/pasion/pasion40.jpeg'
+import pasion41 from '../../images/pasion/pasion41.jpeg'
+import pasion42 from '../../images/pasion/pasion42.jpeg'
+
 
 import paraiso1 from '../../images/paraiso/paraiso1.jpeg'
 import paraiso2 from '../../images/paraiso/paraiso2.jpeg'
@@ -157,7 +163,7 @@ const assetsPasion = {
     photos: [pasion1, pasion2, pasion3, pasion4, pasion5, pasion6, pasion7, pasion8, pasion9, pasion10, pasion11,
     pasion12, pasion13, pasion14, pasion15, pasion16, pasion17, pasion18, pasion19, pasion20, pasion21, pasion22,
     pasion23, pasion24, pasion25, pasion26, pasion27, pasion28, pasion29, pasion30, pasion31, pasion32, pasion33,
-    pasion34, pasion35, pasion36, pasion37],
+    pasion34, pasion35, pasion36, pasion37, pasion38, pasion39, pasion40, pasion41, pasion42],
     description: 'Villa Pasión',
     link: 'https://www.airbnb.es/rooms/36590311?source_impression_id=p3_1659651671_0CBqrDzYZoZ6VcnY',
     region: 'Jarabacoa',
