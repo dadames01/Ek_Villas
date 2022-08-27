@@ -1,44 +1,40 @@
 import {useState, useRef} from "react";
 import './Gallery.css'
-import pasion from './../../images/home/pasion.jpeg';
-import paraiso from './../../images/home/paraiso.jpeg';
-import linda from './../../images/home/linda.jpeg';
-import vistahermosa from './../../images/home/vistahermosa.jpeg';
-import grecia from './../../images/home/grecia.jpeg';
+import { assetsPasion, assetsLinda, assetsParaiso, assetsVistaHermosa, assetsGrecia } from "../Villa/VillaAssets";
 import ImageGallery from 'react-image-gallery';
 
 
 function Gallery() {
     const [houses, setHouses] = useState([
     {
-       link: pasion,
-       capacity: '12',
-       name: 'pasion',
-       description: 'Villa Pasión'
+       link: assetsPasion.homePhoto,
+       capacity: assetsPasion.capacity,
+       name: assetsPasion.name,
+       description: assetsPasion.description
     },
     {
-        link: paraiso,
-        capacity: '15',
-        name: 'paraiso',
-        description: 'Villa Paraiso'
+        link: assetsParaiso.homePhoto,
+        capacity: assetsParaiso.capacity,
+        name: assetsParaiso.name,
+        description: assetsParaiso.description
     },
     {
-        link: linda,
-        capacity: '8',
-        name: 'linda',
-        description: 'Villa Linda'
+        link: assetsLinda.homePhoto,
+        capacity: assetsLinda.capacity,
+        name: assetsLinda.name,
+        description: assetsLinda.description
     },
     {
-        link: vistahermosa,
-        capacity: '12',
-        name: 'vistahermosa',
-        description: 'Vista Hermosa'
+        link: assetsVistaHermosa.homePhoto,
+        capacity: assetsVistaHermosa.capacity,
+        name: assetsVistaHermosa.name,
+        description: assetsVistaHermosa.description
     },
     {
-        link: grecia,
-        capacity: '14',
-        name: 'Grecia',
-        description: 'Villa Grecia'
+        link: assetsGrecia.homePhoto,
+        capacity: assetsGrecia.capacity,
+        name: assetsGrecia.name,
+        description: assetsGrecia.description
     },
     ])
     const originalState = useRef(houses);
