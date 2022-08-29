@@ -4,7 +4,7 @@ import { assetsPasion, assetsLinda, assetsParaiso, assetsVistaHermosa, assetsGre
 import ImageGallery from 'react-image-gallery';
 
 
-function Gallery() {
+function Gallery({changePage}) {
     const [houses, setHouses] = useState([
     {
        link: assetsPasion.homePhoto,
@@ -44,7 +44,7 @@ function Gallery() {
             {
                 original: house.link,
                 description: house.description,
-                name: house.name
+                name: house.name,
             }
         )
     })
@@ -52,6 +52,13 @@ function Gallery() {
     const filterImages = (selectedCapacity) => {
         setHouses(originalState.current.filter(house => Number(house.capacity) >= selectedCapacity))
 
+    }
+
+    const changePhoto = (event) => {
+        const houseNameStoredValue = event.target.attributes[1].nodeValue
+        const houseName = houseNameStoredValue.replace('/static/media/', '').split('.')[0].split('home')[1];
+        changePage(houseName)
+        
     }
 
     return (
@@ -65,10 +72,10 @@ function Gallery() {
                 <option value="15">15 o menos</option>
             </select>
             <div>
-                <p>Desliza para ver las diferentes propiedades</p>
+                <p>Desliza para ver las diferentes propiedades y haz click para ir a su página</p>
             </div>
             <div className="image-gallery">
-                <ImageGallery items={houseImages} showIndex={true} useBrowserFullscreen={false}/>
+                <ImageGallery items={houseImages} showIndex={true} useBrowserFullscreen={false} onClick={changePhoto}/>
             </div>
         </div>
     )

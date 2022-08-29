@@ -16,6 +16,7 @@ function App() {
 
   const changePage = (newPage => {
     setPage(newPage)
+    window.scrollTo(0, 0);
   })
 
   return (
@@ -35,7 +36,7 @@ function App() {
           case 'grecia':
             return <Grecia />
           default:
-            return <div><HostSection/> <Gallery /></div>
+            return <div><HostSection/> <Gallery changePage={changePage}/></div>
         }
       })()}
       </Router>
